@@ -67,7 +67,7 @@ Comparison of engagement between different niches.
 
 Model: Content-Based Recommender System
 
-Data Preprocessing
+## Data Preprocessing
 
 Feature Extraction: Combined TF-IDF vectorized biography text with normalized numerical engagement metrics.
 
