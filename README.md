@@ -47,7 +47,7 @@ After data cleaning, the final dataset consists of 2,531 entries with 11 key fea
 
 ## Exploratory Data Analysis (EDA)
 
-### Univariate Analysis
+### 1. Univariate Analysis
 
 Distribution of followers and posts count.
 
@@ -57,7 +57,7 @@ Proportion of verified vs. non-verified accounts.
 
 Most common niches among Instagram creators.
 
-### Multivariate Analysis
+### 2. Multivariate Analysis
 
 Correlation between engagement rate and follower count.
 
@@ -69,19 +69,19 @@ Model: Content-Based Recommender System
 
 ## Data Preprocessing
 
-Feature Extraction: Combined TF-IDF vectorized biography text with normalized numerical engagement metrics.
+1. Feature Extraction: Combined TF-IDF vectorized biography text with normalized numerical engagement metrics.
 
-Feature Normalization: Used MinMaxScaler to scale numerical data.
+2. Feature Normalization: Used MinMaxScaler to scale numerical data.
 
-Similarity Calculation
+3. Similarity Calculation
 
-Cosine Similarity was used to determine account similarity based on features.
+ - Cosine Similarity was used to determine account similarity based on features.
 
-Recommendation Function
+4. Recommendation Function
 
-Input: Instagram account name.
+- Input: Instagram account name.
 
-Output: Top 5 most similar accounts based on niche and engagement patterns.
+- Output: Top 5 most similar accounts based on niche and engagement patterns.
 
 Example Output
 
