@@ -1,5 +1,5 @@
 # Creator-Brand-Recommender
-
+![image](https://github.com/Emily-Ngahu/Creator-Brand-Recommender/blob/main/Brand_creator_connect.png)
 ## Project Aim
 
 This project focuses on building a recommendation system to match Instagram creators with relevant brands based on their niche and engagement metrics. By leveraging Natural Language Processing (NLP) and machine learning techniques, the system identifies similar accounts to facilitate brand collaborations.
